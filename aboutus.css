@@ -1,0 +1,87 @@
+
+.myself{
+    position: absolute;
+    top:30%;
+    left:50%;
+    color:rgb(20, 20, 20);
+    bottom:0;
+    font-size: larger;
+    font-weight: bolder;
+}
+.picture{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.social{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social a{
+    padding:10px;
+}
+
+.h1{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.h2{
+    text-align: center;
+    font-size: medium;
+}
+.h3{
+    text-align:center;
+    font-size: medium;
+}
+
+.about .content{
+    
+    color:white;
+    padding:20px;
+    text-align: center;
+    font-size: medium;
+    background: black;
+    font-weight:bold;
+    
+}
+
+.row1{
+    background-color: #736555;
+    display: flex;
+    margin:20px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+    
+
+}
+.colum {
+    background-color:#4fedf8;
+    flex:33.3%;
+    padding: 20px;
+    border:2px solid purple;
+    border-radius:10px;
+}
+
+#edu{
+    margin-left:0; 
+    
+}
+
+.experience{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.bg-1{
+    background-color: black;
+    color:blanchedalmond;
+}
